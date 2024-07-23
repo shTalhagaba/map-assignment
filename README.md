@@ -9,11 +9,9 @@ This is a React Native application that displays a list of nearby restaurants us
 
 - Display a list of 10 nearby restaurants.
 - Show restaurant details including name, address, and distance.
-- Responsive design for both desktop and mobile devices.
 
 ## Requirements
 
-- Node.js
 - npm or yarn
 - React Native CLI
 - Android Studio or Xcode (for running on an emulator or physical device)
@@ -22,11 +20,6 @@ This is a React Native application that displays a list of nearby restaurants us
 ## Getting Started
 
 ### 1. Clone the Repository
-
-```sh
-git clone https://github.com/yourusername/nearby-restaurants-app.git
-cd nearby-restaurants-app
-```
 
 ### 2. Install Dependencies
 
@@ -42,16 +35,7 @@ yarn install
 
 ### 3. Configure the Google Places API Key
 
-Replace `YOUR_MAP_API_KEY` with your actual Google Places API Key in the appropriate file. Typically, you would have a configuration file or an environment variable for this.
-
-For example, if you are using an `.env` file:
-
-1. Create a file named `.env` in the root directory of your project.
-2. Add your API key to the `.env` file:
-    ```env
-    MAP_API_KEY=YOUR_MAP_API_KEY
-    ```
-3. Ensure your app loads the API key from the environment variables.
+Replace `MAP_API_KEY` with your actual Google Places API Key in the appropriate file. Typically, you would have a configuration file or an environment variable for this.
 
 ### 4. Run the App
 
